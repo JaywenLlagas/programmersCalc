@@ -25,6 +25,7 @@ class OutputViewController: UIViewController {
         base.text = baseChoice!
         input.text = choiceInput!
         arrange()
+        println("ehe")
         
         if let chosenInput = input.text?.toInt() {
             print(chosenInput+chosenInput)
